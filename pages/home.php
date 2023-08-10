@@ -75,7 +75,7 @@
 
     <section class="extras">
         <div class="center">
-            <div class="w50 left depoimentos-container">
+            <div id="depoimentos" class="w50 left depoimentos-container">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">"orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nunc
@@ -109,7 +109,7 @@
 
                 </div><!--depoimento-single-->
             </div><!--w50-->
-            <div class="w50 left servicos-container">
+            <div id="servicos" class="w50 left servicos-container">
                 <h2 class="title">Servicos</h2>
                 <div class="servicos">
                     <ul>
