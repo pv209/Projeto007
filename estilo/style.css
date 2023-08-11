@@ -90,6 +90,7 @@ section.banner-principal{
 
 .banner-single{
     position: absolute;
+    display: none;
     left: 0;
     z-index: 1;
     top: 0;

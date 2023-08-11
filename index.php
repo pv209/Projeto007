@@ -64,6 +64,7 @@
      }
      ?>
 
+
     <footer <?php if(isset($pagina404)  && $pagina404==true) echo 'class="fixed"' ?>>
         <div class="center">
             <p>Todos os direitos reservados</p>
