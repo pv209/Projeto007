@@ -34,14 +34,6 @@ html,body{
     margin-top: 8px;
 }
 
-.box-login input[type=text]{
-
-}
-
-.box-login input[type=password]{
-
-}
-
 .box-login input[type=submit]{
     width: 100px;
     height:40px;
@@ -61,3 +53,13 @@ html,body{
     margin: 10px 0;
     color: black;
 }
+
+.erro-box{
+    width: 100%;
+    padding: 8px 2%;
+    text-align: center;
+    background: #F75353;
+    color: white;
+    font-size: 15px;
+
+ }

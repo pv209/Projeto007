@@ -13,4 +13,9 @@
 	define('INCLUDE_PATH','http://localhost/Projeto-07-main/');
 	define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'painel/');
 
+    define('HOST','localhost');
+	define('USER','root');
+	define('PASSWORD','');
+	define('DATABASE','projeto_01');
+
  ?>
