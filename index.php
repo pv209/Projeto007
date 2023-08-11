@@ -15,7 +15,7 @@
     <?php
          $url = isset($_GET['url']) ? $_GET['url'] : 'home';
          switch ($url) {
-            case 'depoimentos':
+            case 'depoimentos ':
                 echo '<target target="depoimentos" />';
                 break;
             case 'servicos':
@@ -71,6 +71,7 @@
     </footer>
     <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
     <script src="<?php echo INCLUDE_PATH; ?>js/myscripts.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/slider.js"></script>
     <?php
     if(($url == 'contato')) {
 

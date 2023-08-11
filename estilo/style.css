@@ -82,13 +82,21 @@ nav.desktop a:hover{
     text-decoration: underline;
 }
 
-.banner-principal{
+section.banner-principal{
     width: 100%;
     height: 600px;
-    background-image: url(../images/banner.jpg);
+    position: relative;
+}
+
+.banner-single{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 
 .overlay{
@@ -98,13 +106,13 @@ nav.desktop a:hover{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
+    z-index: 2;
 }
 
-section.banner-principal form{
+.banner-principal form{
     width:93%;
     max-width:600px;
-    z-index: 2;
+    z-index: 3;
     position:absolute;
     left:50%;
     top: 50%;
@@ -112,7 +120,7 @@ section.banner-principal form{
     -ms-transform: translate(-50%,-50%);
 }
 
-section.banner-principal form h2{
+.banner-principal form h2{
     color: white;
     font-weight: 300;
     font-size: 30px;
@@ -120,8 +128,7 @@ section.banner-principal form h2{
 }
 
 
-
-section.banner-principal form input[type=email]{
+.banner-principal form input[type=email]{
     width: 100%;
     height: 66px;
     margin-top: 10px;
@@ -131,7 +138,7 @@ section.banner-principal form input[type=email]{
     padding-left: 10px;
 }
 
-section.banner-principal form input[type=submit]{
+.banner-principal form input[type=submit]{
     width: 100%;
     height: 66px;
     margin-top: 10px;
@@ -141,6 +148,28 @@ section.banner-principal form input[type=submit]{
     font-size: 22px;
     padding-left: 10px;
     border: 0;
+}
+
+
+.bullets{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+.bullets span{
+    display: inline-block;
+    margin: 0 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #444;
+}
+
+.active-slider{
+    background-color: white !important;
 }
 
 section.descricao-autor{
