@@ -63,3 +63,140 @@ html,body{
     font-size: 15px;
 
  }
+
+.clear{
+    clear: both;
+}
+
+.center{
+    max-width: 1920px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+ header{
+    position: relative;
+    left: 300px;
+    padding: 10px 0;
+    background: #78909c;
+    width: calc(100% - 300px);
+    float: left;
+ }
+
+
+.menu-wrapper{
+    width: 300px;
+}
+
+ .menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    padding: 10px;
+    background:#455a64;
+    float: left;
+    width: 300px;
+ }
+
+ .box-usuario{
+    text-align: center;
+ }
+
+ .avatar-usuario{
+    text-align: left;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #2F3D42;
+ }
+
+ .avatar-usuario i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: #2F3D42;
+ }
+
+ .loggout{
+    float: right;
+ }
+
+ .loggout a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+ }
+
+ .loggout a > span{
+    font-size: 17px;
+    text-decoration: none;
+ }
+
+ .menu-btn{
+    float: left;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+ }
+
+ .nome-usuario{
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .nome-usuario p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+ }
+
+ .content{
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 10px;
+ }
+
+ .left{
+    float: left;
+ }
+
+.right{
+    float: right;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 49%;
+}
+ .box-content{
+    background: white;
+    padding: 10px;
+ }
+
+
+ @media  screen and (max-width:768px) {
+    .menu{
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+        left: 0;
+    }
+
+    header{
+        left: 0;
+        width: 100%;
+    }
+ }
+ 
