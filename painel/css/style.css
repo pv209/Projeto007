@@ -11,6 +11,10 @@ html,body{
     background: rgb(225 , 225, 225);
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .box-login{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -197,6 +201,14 @@ html,body{
     header{
         left: 0;
         width: 100%;
+    }
+
+
+ }
+
+ @media screen and (max-width: 400px) {
+    .menu-wrapper{
+        width: 200px;
     }
  }
  
